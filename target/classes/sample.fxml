@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Text?>
+
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0">
+         <children>
+            <Button fx:id="idButton" layoutX="62.0" layoutY="150.0" mnemonicParsing="false" onAction="#checkNumbers" text="Проверить" />
+            <TextField fx:id="idInputNumber" layoutX="26.0" layoutY="75.0" />
+            <Text layoutX="39.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Проверка ввода цифр" />
+            <Label fx:id="idResult" layoutX="74.0" layoutY="107.0" text="Результат" />
+         </children></AnchorPane>
+   </children>
+</GridPane>
